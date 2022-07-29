@@ -5,10 +5,10 @@ import Youtube from "../Icons/Youtube.png"
 
 export default function Footer(){
     return(
-        <div className="Footer">
+        <footer className="Footer">
             <a href="https://github.com/pijusr"><img src={Github}/></a>
             <a href="https://www.instagram.com/frustedits/"><img src={Instagram}/></a>
             <a href="https://www.youtube.com/c/Frusticks"><img src={Youtube}/></a>
-        </div>
+        </footer>
     )
 }
