@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html,body{
+    background-color: #23252C;
+}
+
+
+.Page{
+    aspect-ratio: 1/2.5;
+    height: 97vh;
+    background-color: #1A1B21;
+    border-radius: 4vh 4vh 4vh 4vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.MyPhoto{ 
+    object-fit: cover; aspect-ratio: 1/1; object-position: 100% 45%;
+    width: 100%;
+    height: auto;
+    border-radius: 4vh 4vh 0px 0px;
+}
+
+.MainContent > h1{
+    font-size:4vh;
+    color: white;
+    text-align: center;
+    margin-top: 1vh;
+}
+.skill{
+    text-align: center;
+    color: #44da27 !important;
+    font-size:2vh !important;
+    margin-top: -2vh;
+}
+.MainContent > h3{
+    margin-left: 5%;
+    font-size:2.5vh;
+    color: rgb(255, 255, 255);
+    margin-bottom: -1.75vh;
+    margin-top: -1vh;
+}
+
+.MainContent > p{
+    margin-left: 5%;
+    font-size:1.7vh;
+    color: white
+}
+.MainContent > ul{
+    font-size:1.7vh;
+    color: white;
+}
+
+.Email{
+    text-align:center;
+    justify-content: center;
+    margin-bottom: 2vh;
+} 
+.Email> button {
+    width: 95%;
+    height: 5vh;
+    font-size:3vh;
+}
+
+.Footer{
+    display: flex;
+    column-gap: 5vh;
+    align-items: center;
+    justify-content:  center;
+    background-color: black;
+    height: 4.3vh;
+    width: 100%;
+    border-radius: 0px 0px 4vh 4vh;
+}
+.Footer > a > img{
+    margin-top: 0.5vh;
+    height: 3.5vh;
+}
